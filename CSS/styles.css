@@ -1,0 +1,136 @@
+* {margin: 0;
+	padding: 0;} 
+
+.mainpic1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.divstars {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+
+}
+
+.stars {animation:stars 20s  ease-in-out;
+	z-index: 1;}
+
+.moon {top: 10%;
+	left: 10%;
+z-index: 3;
+position: absolute; 
+animation: moon 10s linear;
+}
+
+@keyframes moon {
+	from {opacity: 0%;}
+	to {opacity: 100%; }
+
+}
+
+.moon1 {width: 700px;
+height: 700px;}
+	
+.stars2 { position: absolute;
+	left:61% ;
+	animation: stars 20s  ease-in-out;
+	z-index: 2;
+display: inline-block;
+}
+
+
+@keyframes stars {
+	from {opacity: 0;}
+	to {opacity: 100;}
+}
+
+.cloud {animation: cloud 40s infinite ease-out;
+position: absolute;
+z-index: 6;
+top: 50%;
+}
+
+@keyframes cloud{
+	from {left: 0; opacity: 0;}
+	to {left: 100%;opacity: 100;}
+}
+
+.cloud1 {top: 0;
+	width: 50%;
+animation: cloud 40s infinite ease-out;
+z-index: 7;
+position: absolute;} 
+
+
+.cloud2 {animation: cloud2 40s infinite ease-out;
+position: absolute;
+z-index: 6;
+top: 60%;
+right: 0;
+}
+
+@keyframes cloud2{
+	from {right: 0; opacity: 0;}
+	to {right: 100%; opacity: 100;}
+}
+
+.cloud3 {top: 10%;
+	right: 0;
+	width: 50%;
+animation: cloud2 40s infinite ease-out;
+z-index: 7;
+position: absolute;} 
+
+.meteor {
+	position: absolute;
+	z-index: 10;
+	animation: meteor 40s infinite linear;
+	/*animation-delay: 13s;*/
+	animation-iteration-count: 2;
+	top: 0;
+	left: 0;
+}
+
+
+@keyframes meteor{
+	0%  {top: 0%;  left: 40%; opacity: 50%; }
+	10% {top: 10%; left: 45%;opacity: 50%;}
+	20% {top: 20%; left: 50%;opacity: 50%;}
+	30% {top: 25%; left: 55%;opacity: 50%;}
+	40% {top: 30%; left: 60%;opacity: 50%;}
+	50% {top: 35%; left: 65%;opacity: 100%;}
+	60% {top: 40%; left: 70%;opacity: 100%;}
+	70% {top: 45%; left: 75%;opacity: 100%;}
+	80% {top: 50%; left: 80%;opacity: 50%;}
+	90% {top: 55%; left: 85%; opacity: 30%;}
+	100%{top: 60%; left: 90%;opacity: 0;}
+} 
+
+
+.meteor2 {
+	position: absolute;
+	z-index: 10;
+	animation: meteor2 40s infinite linear;
+	/*animation-delay: 13s;*/
+	animation-iteration-count: 2;
+	top: 0;
+	right: 0;
+}
+
+
+@keyframes meteor2{
+	0%  {top: 0%; right: 0%; opacity: 100%;}
+	10% {top: 10%; right: 10%;opacity:100%;}
+	20% {top: 20%; right: 20%;opacity:100%;}
+	30% {top: 25%; right: 25%;opacity:100%;}
+	40% {top: 30%; right: 30%;opacity:100%;}
+	50% {top: 35%; right: 35%;opacity:100%;}
+	60% {top: 40%; right: 40%;opacity:100%;}
+	70% {top: 45%; right: 45%;opacity:100%;}
+	80% {top: 50%; right: 50%;opacity:100%;}
+	90% {top: 55%; right: 55%; opacity: 50%;}
+	100%{top: 60%; right: 60%; opacity: 0;}
+} 
