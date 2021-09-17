@@ -91,7 +91,8 @@ position: absolute;}
 	/*animation-delay: 13s;*/
 	animation-iteration-count: 2;
 	top: 0;
-	left: 0;
+	left: 30%;
+	animation-delay: 5s;
 }
 
 
@@ -118,6 +119,7 @@ position: absolute;}
 	animation-iteration-count: 2;
 	top: 0;
 	right: 0;
+
 }
 
 
