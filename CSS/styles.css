@@ -1,9 +1,7 @@
-* {margin: 0;
-	padding: 0;} 
-
 
 .main-section {width: 100%;
-				height: 60%;}
+				height: 800px;
+				position: relative;}
 
 .mainpic1 {
 	width: 100%;
@@ -24,6 +22,7 @@
 
 .moon {top: 10%;
 	left: 10%;
+	width: 500px;
 z-index: 3;
 position: absolute; 
 animation: moon 10s linear;
