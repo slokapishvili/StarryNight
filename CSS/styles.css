@@ -1,7 +1,8 @@
+.section {width: 100%;
+	height: 100%;
+	position: absolute;
+z z-index: 0;}
 
-.main-section {width: 100%;
-				height: 800px;
-				position: relative;}
 
 .mainpic1 {
 	width: 100%;
@@ -9,21 +10,33 @@
 	position: absolute;
 }
 
+.main-section {width: 100%;
+				height: 60%;
+				position: relative;}
+
 .divstars {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	display: inline-block;
+	z-index: 1;
 
 }
 
+.divall {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+}
+
 .stars {animation:stars 20s  ease-in-out;
-	z-index: 1;}
+	z-index: 2;}
 
 .moon {top: 10%;
 	left: 10%;
-	width: 500px;
-z-index: 3;
+	width: 100%;
+	height: 500px;
+z-index: 4;
 position: absolute; 
 animation: moon 10s linear;
 }
@@ -34,13 +47,13 @@ animation: moon 10s linear;
 
 }
 
-.moon1 {width: 700px;
-height: 700px;}
+.moon1 {width: 400px;
+height: 400px;}
 	
 .stars2 { position: absolute;
 	left:61% ;
 	animation: stars 20s  ease-in-out;
-	z-index: 2;
+	z-index: 3;
 display: inline-block;
 }
 
@@ -54,6 +67,7 @@ display: inline-block;
 position: absolute;
 z-index: 6;
 top: 50%;
+width: 300px ;
 }
 
 @keyframes cloud{
@@ -62,7 +76,7 @@ top: 50%;
 }
 
 .cloud1 {top: 0;
-	width: 50%;
+	width: 400px;
 animation: cloud 40s infinite ease-out;
 z-index: 7;
 position: absolute;} 
@@ -73,6 +87,7 @@ position: absolute;
 z-index: 6;
 top: 60%;
 right: 0;
+width: 300px;
 }
 
 @keyframes cloud2{
@@ -82,7 +97,7 @@ right: 0;
 
 .cloud3 {top: 10%;
 	right: 0;
-	width: 50%;
+	width: 400px;
 animation: cloud2 40s infinite ease-out;
 z-index: 7;
 position: absolute;} 
@@ -96,6 +111,7 @@ position: absolute;}
 	top: 0;
 	left: 30%;
 	animation-delay: 5s;
+	width: 200px;
 }
 
 
@@ -122,6 +138,7 @@ position: absolute;}
 	animation-iteration-count: 2;
 	top: 0;
 	right: 0;
+	width: 200px;
 
 }
 
