@@ -26,7 +26,7 @@ z z-index: 0;}
 .divall {
 	position: absolute;
 	width: 100%;
-	height: 800px;
+	height: 400px;
 }
 
 .stars {animation:stars 20s  ease-in-out;
@@ -35,7 +35,7 @@ z z-index: 0;}
 .moon {top: 10%;
 	left: 10%;
 	width: 100%;
-	height: 500px;
+	height: 400px;
 z-index: 4;
 position: absolute; 
 animation: moon 10s linear;
@@ -47,8 +47,8 @@ animation: moon 10s linear;
 
 }
 
-.moon1 {width: 400px;
-height: 400px;}
+.moon1 {width: 200px;
+height: 200px;}
 	
 .stars2 { position: absolute;
 	left:61% ;
@@ -66,8 +66,8 @@ display: inline-block;
 .cloud {animation: cloud 40s infinite ease-out;
 position: absolute;
 z-index: 6;
-top: 50%;
-width: 300px ;
+top: 10%;
+width: 200px ;
 }
 
 @keyframes cloud{
@@ -87,7 +87,7 @@ position: absolute;
 z-index: 6;
 top: 60%;
 right: 0;
-width: 300px;
+width: 200px;
 }
 
 @keyframes cloud2{
