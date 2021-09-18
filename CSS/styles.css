@@ -17,7 +17,7 @@ z z-index: 0;}
 .divstars {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 500px;
 	display: inline-block;
 	z-index: 1;
 
@@ -26,7 +26,7 @@ z z-index: 0;}
 .divall {
 	position: absolute;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 }
 
 .stars {animation:stars 20s  ease-in-out;
@@ -85,7 +85,7 @@ position: absolute;}
 .cloud2 {animation: cloud2 40s infinite ease-out;
 position: absolute;
 z-index: 6;
-top: 60%;
+top: 10%;
 right: 0;
 width: 200px;
 }
@@ -95,7 +95,7 @@ width: 200px;
 	to {right: 100%; opacity: 100;}
 }
 
-.cloud3 {top: 10%;
+.cloud3 {top: 0;
 	right: 0;
 	width: 400px;
 animation: cloud2 40s infinite ease-out;
