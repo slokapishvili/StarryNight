@@ -1,5 +1,8 @@
+.body {width: 100%;
+	height: 608px;}
+
 .section {width: 100%;
-	height: 100%;
+	height: 608px;
 	position: absolute;
 z z-index: 0;}
 
@@ -12,28 +15,25 @@ z z-index: 0;}
 
 .main-section {width: 100%;
 				height: 500px;
-				position: relative;}
+				position: absolute;}
 
 .divstars {
 	position: absolute;
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	display: inline-block;
 	z-index: 1;
 
 }
 
-.divall {
-	position: absolute;
-	width: 100%;
-	height: 500px;
-}
-
 .stars {animation:stars 20s  ease-in-out;
-	z-index: 2;}
+	z-index: 2;
+width: 250px;
+height: 400px;}
 
-.moon {top: 10%;
-	left: 10%;
+
+.moon {top: 0;
+	left: 0;
 	width: 100%;
 	height: 400px;
 z-index: 4;
@@ -47,13 +47,20 @@ animation: moon 10s linear;
 
 }
 
-.moon1 {width: 200px;
-height: 200px;}
+.moon1 {width: 150px;
+height: 150px;
+top: 10%;
+left: 10%;}
 	
-.stars2 { position: absolute;
-	left:61% ;
-	height: 500px;
+
+.divall {
+	position: absolute;
 	width: 100%;
+}
+
+.stars2 { position: absolute;
+	height: 500px;
+	width: 250px;
 	animation: stars 20s  ease-in-out;
 	z-index: 3;
 display: inline-block;
@@ -68,7 +75,7 @@ display: inline-block;
 .cloud {animation: cloud 40s infinite ease-out;
 position: absolute;
 z-index: 6;
-top: 10%;
+top: 30%;
 width: 200px ;
 }
 
@@ -87,7 +94,7 @@ position: absolute;}
 .cloud2 {animation: cloud2 40s infinite ease-out;
 position: absolute;
 z-index: 6;
-top: 10%;
+top: 30%;
 right: 0;
 width: 200px;
 }
@@ -104,9 +111,15 @@ animation: cloud2 40s infinite ease-out;
 z-index: 7;
 position: absolute;} 
 
+
+.meteor1{position: absolute;
+z-index: 30;
+width: 100%;
+height: 400px;}
+
 .meteor {
 	position: absolute;
-	z-index: 10;
+	z-index: 40;
 	animation: meteor 40s infinite linear;
 	/*animation-delay: 13s;*/
 	animation-iteration-count: 2;
